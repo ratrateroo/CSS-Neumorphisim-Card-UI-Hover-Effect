@@ -7,3 +7,30 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 4rem 0;
+    color: #525252;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.btn {
+    background: #e8eff5;
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    margin: 0 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 400ms;
+}
