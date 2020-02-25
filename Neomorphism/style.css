@@ -43,3 +43,6 @@ h1 {
     color: #727272;
     transition: all 400ms;
 }
+
+.btn:hover i {
+    transform: scale(0.96);
